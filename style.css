@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #865e7e;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.calculator {
+    width: 22%;
+    padding: 20px 3px 11px 3px;
+    background-color: #e8f2f0;
+    border: none;
+    border-radius: 19px;
+    display: inline-block;
+}
+
+.keys {
+    text-align: center;
+}
+
+.screen {
+    width: 20.4vw;
+    height: 15vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #91bcd463;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.input {
+    padding: 8px;
+    font-size: 30px;
+    color: #2393db;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+    top: 7px;
+    left: 2px;
+}
+
+.output {
+    font-size: 25px;
+    font-weight: bold;
+    color: #202096;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: 46px;
+}
+
+button {
+    font-size: 22px;
+    width: 59px;
+    height: 52px;
+    margin: 5px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: #91bcd463;
+    color: #202096;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#equal {
+    background-color: #113b79d1;
+    color: white;
+}
+
+.btn-color {
+    background-color: #4c9ee547;
+    color: #2393db;;
+}
+
+@keyframes big {
+    0% {
+        font-size: 25px;
+    }
+    100% {
+        font-size: 30px;
+    }
+}
+
+@keyframes small {
+    0% {
+        font-size: 30px;
+    }
+    100% {
+        font-size: 22px;
+    }
+}
